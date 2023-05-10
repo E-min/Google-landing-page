@@ -84,7 +84,7 @@ input:focus {
 }
 .search-bar::before {
     position: absolute;
-    transform: translate(50%, 50%);
+    top: 12px;
     left: 20px;
     color: white;
     content: url('./img/Magnifying-glass-solid.svg');
