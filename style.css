@@ -85,17 +85,21 @@ input:focus {
 .search-bar::before {
     position: absolute;
     transform: translate(50%, 50%);
-    left: 10px;
+    left: 20px;
     color: white;
     content: url('./img/Magnifying-glass-solid.svg');
     width: 15px;
     height: 15px;
     cursor: pointer;
 }
-input::after {
-    content: url('./img/Google_mic.svg');
-    width: 10px; /* adjust the size as needed */
-    height: 10px; /* adjust the size as needed */
+.search-bar::after {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    content: url('./img/microphone-solid.svg');
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
 }
 button:hover {
     cursor: pointer;
