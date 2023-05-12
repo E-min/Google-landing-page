@@ -15,44 +15,57 @@
   <body>
     <header>
       <nav>
-        <section class="navigation">
-          <a href='#' class="nav-link gmail">Gmail</a>
-          <a href="#" class="nav-link photos">Images</a>
-              <img class="nav-item menu" src="./img/icon-menu.jpg" alt="icon menu" width="30"/>
-          <div class="nav-item user-profile-photo-container">
-            <img class="user-profile-photo" src="./img/user-regular.svg" alt="user icon" />
+        <section class="nav">
+          <div class="nav__right">
+            <a href="#" class="nav__gmail">Gmail</a>
+            <a href="#" class="nav__images">Images</a>
+            <img
+              class="nav__app-icon"
+              src="./img/icon-menu.jpg"
+              alt="icon menu"
+            />
+            <div class="nav__user">
+              <img
+                class="nav__user-photo"
+                src="./img/user-regular.svg"
+                alt="user icon"
+              />
+            </div>
           </div>
         </section>
       </nav>
     </header>
-    <div class="top-empty-place"></div>
-    <main>
+    <main class="main">
+      <div class="main__top-empty-place"></div>
       <section class="google-logo">
-        <img src="./img/googlelogo.png" alt="google logo">
+        <img src="./img/googlelogo.png" alt="google logo" />
       </section>
-      <section class="search-bar">
-        <img class="search-bar-icons" src="./img/Magnifying_glass_icon.svg" alt="">
-        <input type="search" name="search" id="search">
-        <img class="search-bar-icons" src="./img/Google_mic.svg" alt="">
+      <section class="main__search-bar">
+        <img
+          class="main__search-bar--icons"
+          src="./img/Magnifying_glass_icon.svg"
+          alt=""
+        />
+        <input type="search" name="search" id="search" />
+        <img class="main__search-bar--icons" src="./img/Google_mic.svg" alt="" />
       </section>
-      <section class="buttons">
-        <button>Google Search</button>
-        <button>I'am Feeling Lucky</button>
+      <section class="main__buttons-container">
+        <button class="main__buttons">Google Search</button>
+        <button class="main__buttons">I'm Feeling Lucky</button>
       </section>
     </main>
-    <div class="bottom-empty-place"></div>
     <footer>
-      <section class="location">Turkey</section>
-      <section class="info">
+      <section class="footer__location">Turkey</section>
+      <section class="footer__info">
         <ul>
-            <li>Adevertising</li>
-            <li>Business</li>
-            <li>How Search Works</li>
+          <li>Adevertising</li>
+          <li>Business</li>
+          <li>How Search Works</li>
         </ul>
         <ul>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
+          <li>Privacy</li>
+          <li>Terms</li>
+          <li>Settings</li>
         </ul>
       </section>
     </footer>
